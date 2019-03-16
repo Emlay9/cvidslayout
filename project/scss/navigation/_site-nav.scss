@@ -1,14 +1,59 @@
 /*** Variables ***/
 
-
-
+$light-blue: #37b5da;
+$green: #29BF12;
 /*** Styles ***/
 
+.nav-background {
+    background-color: rgba(0, 0, 0, 0.247);
+    // padding: 0 16%;
+}
+
 .site-nav {
-    background: grey;
-    box-shadow: 0 0 7px 0 grey;
-    border-bottom: 1px solid grey;
-    padding: 0.5rem 1rem;
+    color: white;
+    max-width: 1100px;
+    margin: 0 auto;
+
+    padding: 1rem 1rem;
+    // background-color: rgba(0, 0, 0, 0.247);
+
+    .donate-nav-item {
+        padding-right: 0;
+    }
+
+    .logo-item {
+        margin-right: auto;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    li {
+        padding-right: 40px;
+    }
+
+    a {
+        color: white;
+        font-size: 18px;
+
+    }
+
+    .donate-link-nav {
+        background: $green;
+        padding: 0.8rem 2rem;
+        color: white;
+        // border-radius: 8px;
+    }
+
+    .donate-link-nav:hover {
+        background: green;
+        padding: 0.8rem 2rem;
+        color: white;
+        text-decoration: none;
+        
+        // border-radius: 8px;
+    }
 }
 
 .list-view {
@@ -20,11 +65,11 @@
     justify-content: space-between;
 }
 
-@media(min-width:600px)
-{
+@media(min-width:600px) {
     .list-view{
         display: flex;
         justify-content: space-around;
+        align-items: center;
     }
 
     .icon-view{

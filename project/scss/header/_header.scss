@@ -1,3 +1,39 @@
 /*** Variables ***/
 
 /*** Styles ***/
+.home-header {
+    padding: 0 1rem;
+    // background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) no-repeat,  url(http://www.cvids.net/wp-content/uploads/2016/03/IMG_4143.jpg);
+    background-size: cover;
+    padding-bottom: 4rem;
+    color: white;
+
+    
+
+    .main-title {
+        padding-top: 2rem;
+        margin-bottom: 25rem; 
+    }
+
+    .donate-link-header {
+        display: inline-block;
+        border: 2px solid #29BF12;
+        color: #29BF12;
+        font-size: 1.4rem;
+        padding: 1rem 2rem;
+        margin-bottom: 2.2rem;
+        background-color: rgba(54, 54, 54, 0.534);
+    }
+
+    .donate-link-header:hover {
+        border-color: white;
+        color: white;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        }
+
+    .phrase {
+        
+        font-size: 1.6rem;
+    }
+}
