@@ -15,23 +15,20 @@ $green: #29BF12;
     margin: 0 auto;
 
     padding: 1rem 1rem;
-    // background-color: rgba(0, 0, 0, 0.247);
 
-    .donate-nav-item {
-        padding-right: 0;
+    .donate-link-nav {
+        margin-right: 1.5rem;
+        border: 2px solid $green;
+        padding: 0.3rem 0.8rem;
     }
+
 
     .logo-item {
         margin-right: auto;
     }
 
-    .logo {
-        width: 100px;
-    }
 
-    li {
-        padding-right: 40px;
-    }
+    
 
     a {
         color: white;
@@ -39,23 +36,7 @@ $green: #29BF12;
 
     }
 
-    .donate-link-nav {
-        // background: $green;
-        // background-color: rgba(54, 54, 54, 0.534);
-        border: 2px solid #29BF12;
-        padding: 0.8rem 2rem;
-        color: $green;
-        // border-radius: 8px;
-    }
 
-    .donate-link-nav:hover {
-        background: green;
-        padding: 0.8rem 2rem;
-        color: white;
-        text-decoration: none;
-        
-        // border-radius: 8px;
-    }
 }
 
 .list-view {
@@ -65,16 +46,77 @@ $green: #29BF12;
 .icon-view {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        width: 80px; margin-left: auto;
+    }
+
+
+    .fa-bars {
+        width: 30px;
+    }
 }
 
 @media(min-width:600px) {
-    .list-view{
+    
+    .site-nav {
+        .icon-view {
+            .donate-link-nav {
+                margin-right: 1.7rem;
+            }
+        }
+    }
+}
+
+@media(min-width: 900px) {
+    
+    .icon-view{
+            display: none;
+        }
+
+    .list-view {
+
         display: flex;
         justify-content: space-around;
         align-items: center;
-    }
 
-    .icon-view{
-        display: none;
+        .donate-link-nav {
+            border: 2px solid #29BF12;
+            padding: 0.8rem 2rem;
+            color: $green;
+        }
+
+        .nav-item {
+            padding-right: 3rem;
+        }
+
+     
+    
+        .logo {
+            width: 100px;
+        }
+    
+        .donate-nav-item {
+            padding-right: 0;
+        }
+    
+        .donate-link-nav:hover {
+            background: green;
+            padding: 0.8rem 2rem;
+            color: white;
+            text-decoration: none;
+            
+            // border-radius: 8px;
+        }
     }
+    
+}
+
+@media(min-width: 1200px) {
+
+}
+
+@media(min-width: 1600px) {
+
 }
