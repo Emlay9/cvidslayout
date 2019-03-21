@@ -1,30 +1,49 @@
 
 .help-section {
 
+    .help-title {
+        margin-bottom: 2rem;
+    }
+
     .help-cards {
-        padding: 0 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 
     .help-card {
         padding: 0.8rem 0.6rem;
         border-radius: 8px;
-        margin-bottom: 1rem;
+        margin-bottom: 1.6rem;
+        max-width: 292px;;
     }
 
     .card-inner-border {
+        height: 362px;
         padding: 1.2rem 0.8rem;
         border: 3px solid #CDEDF6;
         border-radius: 8px;
     }
 
+    .card-items {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
     .help-card-title {
-        margin-bottom: 0.2rem;
+        margin-bottom: 0.4rem;
         font-weight: 400;
+    }
+
+    .card-info {
+        margin-bottom: 2.2rem;
     }
 
     .line {
         height: 2px;
-        width: 100px;
+        width: 120px;
         background: white;
         margin-bottom: 2rem;
         margin-left: auto;
@@ -32,14 +51,15 @@
     }
 
     .help-icon {
-        width: 40px;
+        width: 60px;
         margin-bottom: 2rem;
     }
 
     .card-button {
         display: inline-block;
         background: #CDEDF6;
-        padding: 0.5rem 0.8rem;
+        width: 130px;
+        padding: 0.8rem 0.5rem;
         border-radius: 4px;
     }
 
@@ -55,7 +75,15 @@
         background: #042A2B;
     }
 
+    .calendar-button {
+        color: #042A2B;
+    }
+
     .event-card {
         background: #EF6221;
+    }
+
+    .event-button {
+        color: #EF6221;
     }
 }
