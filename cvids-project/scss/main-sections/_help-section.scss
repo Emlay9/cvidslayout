@@ -1,0 +1,61 @@
+
+.help-section {
+
+    .help-cards {
+        padding: 0 3rem;
+    }
+
+    .help-card {
+        padding: 0.8rem 0.6rem;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+    }
+
+    .card-inner-border {
+        padding: 1.2rem 0.8rem;
+        border: 3px solid #CDEDF6;
+        border-radius: 8px;
+    }
+
+    .help-card-title {
+        margin-bottom: 0.2rem;
+        font-weight: 400;
+    }
+
+    .line {
+        height: 2px;
+        width: 100px;
+        background: white;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .help-icon {
+        width: 40px;
+        margin-bottom: 2rem;
+    }
+
+    .card-button {
+        display: inline-block;
+        background: #CDEDF6;
+        padding: 0.5rem 0.8rem;
+        border-radius: 4px;
+    }
+
+    .donation-card {
+        background: #29BF12;
+    }
+
+    .donate-button {
+        color: #29BF12;
+    }
+
+    .calendar-card {
+        background: #042A2B;
+    }
+
+    .event-card {
+        background: #EF6221;
+    }
+}

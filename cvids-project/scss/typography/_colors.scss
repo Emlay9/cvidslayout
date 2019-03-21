@@ -5,9 +5,23 @@
 */
 
 /*** Variables ***/
-
+$light-blue: #37b5da;
+$green: #29BF12;
 /*** Styles ***/
 
 // .acronym {
 //     color: #EF6221;
 // }
+
+.missions-section {
+    color: white;
+
+}
+
+.help-section {
+
+    .help-cards {
+        color: white;
+    }
+
+}

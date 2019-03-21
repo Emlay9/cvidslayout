@@ -15,8 +15,9 @@ $xl-h2: 3.157em;
 $xl-h3: 2.369em;
 
 
-$sm-h1: 2.488em ;
+$sm-h1: 2.488em;
 $sm-h2: 2.074em;
+$sm-h3: 1.728em;
 $sm-txt: 1.2rem;
 /*** Styles ***/
 
@@ -28,24 +29,37 @@ $sm-txt: 1.2rem;
     font-size: $sm-h2;
 }
 
+.sm-h3 {
+    font-size: $sm-h3;
+}
+
 body {
     // font-family: 'Raleway', sans-serif;
     font-family: 'Lato', sans-serif;
 }
 
+h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
 
 // small view
 .site-nav {
     
 }
 
-
+.missions-section {
+    .missions-title {
+        font-weight: 300;
+    } 
+ }
 
 .home {
     .main-title {
         font-size: 2.488em;
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
+        line-height: 1;
 
         .acronym {
             font-size: 2.9rem;
