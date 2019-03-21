@@ -35,7 +35,11 @@ $vivid-vermilion: #EF6221;
 
 @media(min-width: 900px)
 {
-
+    .home-header {
+        .main-title {
+            margin-bottom: 20rem;
+        }
+    }
 }
 
 @media(min-width: 1200px)
