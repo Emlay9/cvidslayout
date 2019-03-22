@@ -23,10 +23,11 @@ li {
 .header-img-container {
     background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) no-repeat,  url(../img/scenic-background.jpg);
     background-size: cover;
+    background-position: right;
 }
 
-.missions-section {
-    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) no-repeat,url(../img/kids.jpg);
+.goals-section {
+    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) no-repeat,url(../img/kids.jpg);
     background-size: cover;
-    height: 200px;
+    // height: 500px;
 }

@@ -3,4 +3,28 @@
     .missions-title {
         margin-bottom: 4rem;
     }
+
+    .fa-hands-helping {
+        width: 30px;
+    }
+
+    .doctor-child-image {
+        display: none;
+    }
 }
+
+@media(min-width: 900px) {
+
+    .missions-section {
+        .doctor-child-image {
+            display: block;
+            width: 40vw;
+        }
+    }
+
+    .mission-container {
+        display: flex;
+    }
+    
+}
+
