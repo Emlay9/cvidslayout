@@ -25,9 +25,9 @@ $sm-txt: 1.2rem;
     font-size: $sm-txt;
 }
 
-.sm-h2 {
-    font-size: $sm-h2;
-}
+// .sm-h2 {
+//     font-size: $sm-h2;
+// }
 
 .sm-h3 {
     font-size: $sm-h3;
@@ -44,14 +44,16 @@ h2, h3, h4 {
 }
 
 // small view
-.site-nav {
-    
-}
+
 
 .missions-section {
     .missions-title {
         font-weight: 300;
     } 
+
+    .mission-info {
+        font-size: 1.5rem;
+    }
  }
 
 .home {
@@ -60,11 +62,17 @@ h2, h3, h4 {
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
         line-height: 1;
+        color: white;
 
         .acronym {
             font-size: 2.9rem;
-            font-weight: 400;
+            color: white;
+            // font-weight: 400;
         }
+    }
+
+    .section-title {
+        font-size: 2rem;
     }
 
     .home-header {
@@ -73,6 +81,12 @@ h2, h3, h4 {
         }
 
         
+    }
+
+    .goals-section {
+        .value {
+            font-size: 1.5rem;
+        }
     }
 
 }
@@ -100,13 +114,19 @@ h2, h3, h4 {
 {
     .home {
         .main-title {
-            font-size: 4.209em;
+            // font-size: 4.5rem;
             font-family: 'Roboto', sans-serif;
+
+       
+
         }
 
-        .acronym {
-            font-size: 5.6rem;
+
+        .section-title {
+            font-size: 4rem;
         }
+
+       
 
         .donate-link-header {
             font-size:1.5rem;

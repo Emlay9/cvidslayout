@@ -5,11 +5,16 @@
         margin-bottom: 2rem;
     }
 
+    .cards-container {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
     .help-cards {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        max-width: 1200px;
+        
     }
 
     .help-card {
