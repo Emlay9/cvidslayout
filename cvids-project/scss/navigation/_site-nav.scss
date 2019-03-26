@@ -20,9 +20,12 @@ $green: #4A9E3D;
     padding: 1rem 1rem;
 
     .donate-link-nav {
+        color: white;
         margin-right: 1.5rem;
-        border: 2px solid $green;
+        border: 2px solid #C12626;
+        background: #8D1C1C;
         padding: 0.3rem 0.8rem;
+        line-height: 1;
     }
 
     .donate-link-nav:hover {
@@ -38,7 +41,7 @@ $green: #4A9E3D;
 
     
 
-    a {
+    .nav-link {
         color: white;
         font-size: 18px;
     }
@@ -84,9 +87,14 @@ $green: #4A9E3D;
 
     .list-view {
 
+        .logo-big {
+            margin-left: 1rem;
+        }
+
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin-top: 1rem;
 
         .donate-link-nav {
             border: 2px solid #C12626;
@@ -115,7 +123,7 @@ $green: #4A9E3D;
         }
     
         .donate-link-nav:hover {
-            background: green;
+            background: #C12626;
             color: white;
         }
     }

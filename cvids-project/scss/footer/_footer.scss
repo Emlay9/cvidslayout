@@ -1,3 +1,61 @@
 /*** Variables ***/
 
 /*** Styles ***/
+
+.home-footer {
+    .contact-form-title {
+        margin-bottom: 2rem;
+    }
+}
+
+
+.contact-form {
+
+    max-width: 440px;
+    margin: 0 auto;
+
+    textarea:focus, input:focus{
+        outline: none;
+    }
+
+    .small-label {
+        margin-left: 7%;
+        margin-bottom: 0.4rem;
+    }
+
+    .name, .email {
+        height: 3.375rem;
+    }
+
+    .message {
+        height: 8.125rem;
+        max-height: 300px;
+    }
+
+    .contact-input {
+        width: 90%;
+        border-radius: 12px;
+        box-shadow: none;
+        border: 1px solid grey;
+        padding: 4px 5px;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .contact-button {
+        background: #23748B;
+        color: white;
+        border: none;
+        // border-radius: 4px;
+        width: 190px;
+        padding: 0.9rem 0;
+        margin-bottom: 4rem;
+        margin-top: 1.3rem;
+        text-align: center;
+    }
+
+    .contact-button:hover {
+        background-color: grey;
+    }
+}

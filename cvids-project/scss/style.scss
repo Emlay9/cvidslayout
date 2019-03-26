@@ -23,10 +23,25 @@ li {
 .header-img-container {
     background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) no-repeat,  url(../img/scenic-background.jpg);
     background-size: cover;
-    // background-position: right;
 }
 
 .goals-section {
     background:linear-gradient(to left,rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)) no-repeat,url(../img/kids.jpg);
     background-size: cover;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    .btn-txt-size {
+        font-size: 1.2rem;
+    }
 }
