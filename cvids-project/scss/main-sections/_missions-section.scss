@@ -6,7 +6,9 @@
         max-width: 1100px;margin: 0 auto;
     }
     
-    
+    .mission-container {
+        padding: 0.8rem;
+    }
 
     .missions-title {
         margin-bottom: 4rem;
@@ -15,19 +17,19 @@
     .fa-hands-helping {
         width: 3rem;
         margin-right: 5rem;
-        color: grey;
+        color: #042A2B;
         // display: none;
     }
 
     .fa-plus-circle {
         width: 2.5rem;
         margin-right: 5rem;
-        color: red;
+        color: #E80000;
     }
     
     .fa-globe-americas {
         width: 2.2rem;
-        color: #37b5da;
+        color: #37B5DA;
     }
 
     
@@ -54,10 +56,18 @@
         align-items: center;
         color: white;
         margin: 0 auto;
-        background: #37B5DA;
+        background: #B39C4D;
         width: 160px;
         padding: 1rem 0;
-        border-radius: 10px;
+        // border-radius: 10px;
+    }
+
+    .see-missions-button:hover {
+        background-color: #23748B;
+    }
+
+    .see-missions:hover {
+        text-decoration: none;
     }
 
     
@@ -69,7 +79,7 @@
     .missions-section {
 
         .missions-title {
-            margin-top: 4rem;
+            margin-top: 3rem;
         }
         .doctor-child-image {
             display: block;
@@ -82,5 +92,14 @@
     }
 
     
+}
+
+@media(min-width: 1200px) {
+    .missions-section {
+
+        .missions-title {
+            margin-top: 4rem;
+        }
+    }
 }
 

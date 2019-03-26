@@ -86,10 +86,19 @@
     }
 
     .event-card {
-        background: #EF6221;
+        background: #37B5DA;
     }
 
     .event-button {
-        color: #EF6221;
+        color: #37B5DA;
+    }
+}
+
+@media(min-width: 600px) {
+    .help-section {
+
+        .help-title {
+            margin-top: 3rem;
+        }
     }
 }

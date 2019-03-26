@@ -32,9 +32,8 @@
         margin-top: 2rem;
         text-align: center;
         color: white;
-        background: #29BF12;
-        padding: 0.2rem 0;
-        border-radius: 10px;
+        background: #C12626;
+        padding: 0.2rem 0.3rem;
         font-size: 1.3rem;
         display: inline-block;
         width: 200px;
@@ -49,8 +48,13 @@
 @media(min-width: 900px) {
     .goals-section {
         .values {
-            margin-bottom: 8rem;
+            margin-bottom: 6rem;
             
+        }
+
+        .goals-title {
+            margin-bottom: 5rem;
+            margin-top: 3rem;
         }
     }
     
