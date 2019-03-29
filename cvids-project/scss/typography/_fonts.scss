@@ -19,15 +19,12 @@ $sm-h1: 2.488em;
 $sm-h2: 2.074em;
 $sm-h3: 1.728em;
 $sm-txt: 1.2rem;
+
 /*** Styles ***/
 
 .sm-txt {
     font-size: $sm-txt;
 }
-
-// .sm-h2 {
-//     font-size: $sm-h2;
-// }
 
 .sm-h3 {
     font-size: $sm-h3;
@@ -43,8 +40,7 @@ h2, h3, h4 {
     font-weight: 300;
 }
 
-// small view
-
+// small viev
 
 .missions-section {
     .missions-title {
@@ -75,23 +71,16 @@ h2, h3, h4 {
         font-size: 2rem;
     }
 
-    .home-header {
-        .donate-link-header {
-            font-size: 1.3rem;
-        }
-
-        
-    }
-
     .goals-section {
         .value {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
         }
     }
-
 }
 
-
+.copyright {
+    font-size: 0.7rem;
+}
 
 
 @media(min-width: 600px)

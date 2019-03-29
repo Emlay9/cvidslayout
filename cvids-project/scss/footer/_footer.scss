@@ -3,9 +3,71 @@
 /*** Styles ***/
 
 .home-footer {
+
     .contact-form-title {
         margin-bottom: 2rem;
     }
+
+    .follow-us-title {
+        margin-bottom: 2rem;
+    }
+
+    .fa-facebook-f {
+        background: #516fa3;
+    }
+
+    .fa-facebook-f:hover {
+        color: #516fa3;
+        border-color: #516fa3;
+    }
+
+    .fa-twitter {
+        background: #4db8ed;
+    }
+
+    .fa-twitter:hover {
+        color: #4db8ed;
+        border-color: #4db8ed;
+    }
+
+    .fa-instagram {
+        background: #444;
+    }
+
+    .fa-instagram:hover {
+        color: #444;
+        border-color: #444;
+    }
+
+    // .social-icons-container {
+    //     margin: 0 auto;
+    // }
+
+    .social-icon {
+        width: 40px;
+        height:40px;
+        padding: 8px;
+        color: white;
+        border-radius: 30px;
+        overflow: visible;
+    }
+    
+    .social-icon:hover {
+        background: white;
+        border-style: solid;
+        border-width: 2px;
+        padding:6px;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: space-around;
+        max-width: 280px;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+
+    
 }
 
 
@@ -47,7 +109,6 @@
         background: #23748B;
         color: white;
         border: none;
-        // border-radius: 4px;
         width: 190px;
         padding: 0.9rem 0;
         margin-bottom: 4rem;
@@ -56,6 +117,6 @@
     }
 
     .contact-button:hover {
-        background-color: grey;
+        background-color: #14404C;
     }
 }

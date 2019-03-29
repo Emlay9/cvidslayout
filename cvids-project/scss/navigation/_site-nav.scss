@@ -8,7 +8,7 @@ $green: #4A9E3D;
 /*** Styles ***/
 
 .nav-background {
-    // background-color: rgba(0, 0, 0, 0.247);
+    background-color: rgba(0, 0, 0, 0.247);
     // padding: 0 16%;
 }
 
@@ -16,11 +16,11 @@ $green: #4A9E3D;
     color: white;
     max-width: 1200px;
     margin: 0 auto;
-
     padding: 1rem 1rem;
 
     .donate-link-nav {
         color: white;
+        font-size: 18px;
         margin-right: 1.5rem;
         border: 2px solid #C12626;
         background: #8D1C1C;
@@ -30,16 +30,12 @@ $green: #4A9E3D;
 
     .donate-link-nav:hover {
         text-decoration: none;
-        background: green;
+        background: #C12626;
     }
-
 
     .logo-item {
         margin-right: auto;
     }
-
-
-    
 
     .nav-link {
         color: white;
@@ -73,24 +69,16 @@ $green: #4A9E3D;
     .site-nav {
         .icon-view {
             .donate-link-nav {
-                margin-right: 1.7rem;
+                margin-right: 1.5rem;
             }
         }
     }
-}
 
-@media(min-width: 900px) {
-    
     .icon-view{
-            display: none;
-        }
+        display: none;
+    }
 
     .list-view {
-
-        .logo-big {
-            margin-left: 1rem;
-        }
-
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -99,7 +87,11 @@ $green: #4A9E3D;
         .donate-link-nav {
             border: 2px solid #C12626;
             padding: 0.6rem 1.3rem;
-            // color: $green;
+            margin-right: 0;
+        }
+
+        .nav-link, .donate-link-nav {
+            font-size: 1rem;
         }
 
         .nav-link:hover {
@@ -111,20 +103,53 @@ $green: #4A9E3D;
         .nav-item {
             padding-right: 2.3rem;
         }
-
-     
     
         .logo {
-            width: 100px;
+            width: 70px;
+            margin-right: 1rem;
         }
     
         .donate-nav-item {
             padding-right: 0;
         }
+    }
+}
+
+@media(min-width: 900px) {
     
-        .donate-link-nav:hover {
-            background: #C12626;
-            color: white;
+    .icon-view{
+            display: none;
+        }
+
+    .list-view {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 1rem;
+
+        .logo {
+            margin-left: 1rem;
+            width:100px;
+        }
+
+        .donate-link-nav {
+            border: 2px solid #C12626;
+            padding: 0.6rem 1.3rem;
+            margin-right:1rem;
+        }
+
+        .nav-link:hover {
+            text-decoration: none;
+            padding-bottom: 4px;
+            border-bottom: 1px solid $green;
+        }
+
+        .nav-item {
+            padding-right: 2.3rem;
+        }
+    
+        .donate-nav-item {
+            padding-right: 0;
         }
     }
     

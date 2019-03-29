@@ -69,12 +69,21 @@
         border-radius: 4px;
     }
 
+    .card-button:hover {
+        text-decoration: none;
+        color: white;
+    }
+
     .donation-card {
         background: #B39C4D;
     }
 
     .donate-button {
         color: #B39C4D;
+    }
+
+    .donate-button:hover {
+        background: #938040;
     }
 
     .calendar-card {
@@ -85,12 +94,21 @@
         color: #23748B;
     }
 
+    .calendar-button:hover {
+        background: #1D5F72;
+    }
+
     .event-card {
         background: #C12626;
     }
 
     .event-button {
         color: #C12626;
+    }
+
+    .event-button:hover {
+        
+        background-color: #9E2020;
     }
 }
 
